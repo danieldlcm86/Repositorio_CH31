@@ -64,5 +64,24 @@ public class DatosEstructurados {
 		String[] cars = {"Volkswagen", "Mazda", "Kia", "Ford"};
 		System.out.println(cars);
 		
+		/*
+		 * Variable por tipo de declaración
+		 * -- Variables dinámicas. Son aquellas que se declaran con un valor pero que dicho valor puede cambiar durante el proceso.
+		 * -- Variables constantes o finales. Su valor no puede modificarse.
+		 * -- Variables literales (palabras reservadas). Su identificador es la representación de su valor y ya tiene un significado en el código fuente de Java 
+		 * 
+		 */
+		//Variables dinámicas
+		float gastosMensuales = 35684.30f;
+		System.out.println(gastosMensuales);
+		
+		gastosMensuales = 42699.2f;
+		System.out.println("Ahora mis gastos mensuales ascienden a " + gastosMensuales);
+		
+		//Variables finales o constantes
+		final int SALARIO = 15000;
+		System.out.println(SALARIO);
+		
+			
 	}
 }
