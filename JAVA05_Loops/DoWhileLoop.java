@@ -26,10 +26,12 @@ public class DoWhileLoop {
 		 * - Mostrar al usuario la opción que eligió y permitir que elija otra opción
 		 * - El usuario puede salir del programa escribiendo 4 (salir)
 		 */
-		System.out.println("Bienvenido al Banco Generation, elige cualquiera de las opciones, para ello escribe el número que corresponda:");
-		System.out.println("1. Consultar saldo");
-		System.out.println("2. Ingresar dineros");
-		System.out.println("3. Retirar dineros");
+		System.out.println("Bienvenido al Banco Generation, elige cualquiera de las opciones, para ello escribe el número que corresponda:\n 1. Consultar saldo \n 2. Ingresar dineros \n 3. Retirar dineros \n 4. Salir");// \n es un salto de línea
+		
+		//Java Special Characters
+		System.out.println("1. Consultar saldo\r"); // el caracter \r crea un interlineado
+		System.out.println("2. Ingresar dineros\t 3. Retirar dineros"); // \t Crea una tabulación 
+		System.out.println("3. Retirar dineros\f4. Salir"); // \f crea un elemento primario y uno secundario anidado
 		System.out.println("4. Salir");
 		
 		Scanner skner = new Scanner(System.in);
